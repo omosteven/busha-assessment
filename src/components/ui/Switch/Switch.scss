@@ -1,0 +1,85 @@
+@import "../_variables";
+
+.switch-button__off {
+  // background-color: $white-color !important;
+  border: 1px solid $primary-color;
+  background-color: #f6f8fa !important;
+  border: 1px solid #ebeef1;
+  transition: 0.5s;
+}
+
+.switch-button {
+  position: relative;
+
+  border-radius: 30px;
+
+  width: 23px;
+
+  height: 14px;
+
+  background-color: $primary-color;
+
+  cursor: pointer;
+
+  .text {
+    color: $white-color;
+
+    font-weight: bold;
+
+    position: absolute;
+
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    left: 13px;
+
+    color: $white-color;
+
+    font-size: 14px;
+  }
+
+  .text.off {
+    right: 13px;
+
+    left: unset;
+
+    color: $primary-muted-color;
+
+    transition: 0.5s;
+  }
+
+  .circle {
+    position: absolute;
+
+    height: 14px;
+
+    width: 14px;
+
+    aspect-ratio: 1;
+
+    border-radius: 50%;
+
+    left: 1px;
+
+    top: 45%;
+
+    transform: translateY(-50%);
+
+    background-color: $white-color;
+
+    transition: 0.5s;
+
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.254246),
+      0px 0.5px 1px rgba(0, 0, 0, 0.255831);
+  }
+  .circle.right {
+    transition: 0.5s;
+  }
+
+  .circle.left {
+    right: 1px;
+
+    left: unset;
+  }
+}

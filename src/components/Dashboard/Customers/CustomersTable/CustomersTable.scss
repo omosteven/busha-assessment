@@ -1,0 +1,75 @@
+@import "components/ui/__variables";
+
+.customers-table {
+  margin-top: 16px;
+
+  &__email {
+    font-weight: 500;
+
+    font-size: 14px;
+
+    line-height: 20px;
+
+    letter-spacing: -0.154px;
+
+    color: $black-color;
+  }
+
+  &__card-number {
+    display: flex;
+
+    gap: 6px;
+
+    span {
+      width: 20px;
+
+      height: 20px;
+
+      background: $visa-card-color;
+
+      border-radius: 2px;
+
+      font-size: 7px;
+
+      color: $white-color;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: center;
+    }
+  }
+
+  .custom-table {
+    table {
+      width: 100% !important;
+
+      border: none;
+
+      thead {
+        th:first-child {
+          svg {
+            margin-left: 5.13px;
+          }
+        }
+
+        th:nth-child(2) {
+          svg {
+            margin-left: 5.13px;
+          }
+        }
+
+        th:last-child {
+          width: 156px;
+        }
+      }
+
+      tbody {
+        td:last-child {
+          width: 156px;
+        }
+      }
+    }
+  }
+}

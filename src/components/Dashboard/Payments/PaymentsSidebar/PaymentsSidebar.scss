@@ -1,0 +1,95 @@
+@import "components/ui/__variables";
+
+.payments-sidebar {
+  width: 155px;
+
+  height: 100vh;
+
+  h3 {
+    font-style: normal;
+
+    font-weight: 600;
+
+    font-size: 16px;
+
+    line-height: 24px;
+  }
+
+  h5 {
+    font-style: normal;
+
+    font-weight: 400;
+
+    font-size: 14px;
+
+    line-height: 20px;
+
+    letter-spacing: -0.154px;
+
+    margin-bottom: 8px;
+
+    cursor: pointer;
+
+    padding: 0 16px;
+
+    color: $brown-color;
+
+    margin-top: 28px;
+  }
+
+  &__list {
+    width: 124px;
+
+    height: fit-content;
+
+    margin-top: 16px;
+
+    background: $white-color;
+
+    box-shadow: inset 1px 0px 0px rgba(108, 140, 171, 0.15);
+
+    h4 {
+      font-style: normal;
+
+      font-weight: 400;
+
+      font-size: 14px;
+
+      line-height: 20px;
+
+      letter-spacing: -0.154px;
+
+      margin-bottom: 8px;
+
+      cursor: pointer;
+
+      padding: 0 16px;
+
+      color: $brown-color;
+
+      &.active {
+        color: $primary-color;
+
+        font-weight: 500;
+
+        box-shadow: inset 2px 0px 0px $purple-color;
+      }
+    }
+
+    p {
+      margin-left: 24px;
+
+      font-weight: 400;
+
+      font-size: 14px;
+
+      line-height: 20px;
+
+      letter-spacing: -0.154px;
+
+      color: $black-muted-color;
+
+      cursor: pointer;
+    }
+  }
+}

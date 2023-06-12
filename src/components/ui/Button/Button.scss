@@ -1,0 +1,77 @@
+@import "../_variables";
+@import "../Main.scss";
+
+.custom-button {
+  .button {
+    width: $button-width;
+
+    height: $button-height;
+
+    border: 1px solid $primary-color;
+
+    outline: none;
+    // background-color: $primary-color;
+    color: $white-color;
+
+    cursor: pointer;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: $border-radius;
+
+    font-weight: 500;
+
+    font-weight: 500;
+
+    font-size: 14px;
+
+    line-height: 20px;
+
+    letter-spacing: -0.154px;
+
+    padding: 4px 8px;
+
+    box-shadow: 0px 2px 5px rgba(60, 66, 87, 0.12),
+      0px 1px 1px rgba(0, 0, 0, 0.08), inset 0px -1px 1px rgba(0, 0, 0, 0.12);
+
+    &:hover {
+      background-color: $white-color;
+
+      border: 1px solid $primary-color;
+
+      color: $primary-muted-color;
+
+      transition: 0.5s;
+    }
+  }
+
+  .loading-icon {
+    margin-left: 0.5rem;
+  }
+
+  .button-disabled {
+    background-color: $gray-color;
+
+    border: none;
+  }
+
+  .button-disabled:hover {
+    background-color: $gray-color;
+
+    border: none;
+
+    color: $white-color;
+  }
+
+  .button-icon {
+    width: 28px;
+
+    margin-left: -6px;
+
+    margin-right: -4px;
+  }
+}

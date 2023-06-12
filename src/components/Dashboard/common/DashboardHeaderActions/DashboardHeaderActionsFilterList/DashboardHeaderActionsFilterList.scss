@@ -1,0 +1,39 @@
+@import "components/ui/__variables";
+
+.dashboard-header-actions-FL {
+  display: flex;
+  
+  flex-direction: row;
+
+  align-items: flex-start;
+  
+  padding: 0px;
+
+  gap: 28px;
+
+  height: 28px;
+
+  border-bottom: 1.5px solid $white-muted-color;
+  
+  width: 100%;
+
+  span {
+    font-style: normal;
+
+    font-weight: 500;
+
+    font-size: 14px;
+
+    letter-spacing: -0.154px;
+
+    color: $black-muted-color;
+
+    cursor: pointer;
+    
+    line-height: 26px;
+
+    &.active {
+      border-bottom: 2px solid $primary-color;
+    }
+  }
+}
