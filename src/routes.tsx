@@ -7,17 +7,17 @@ export const routes = [
   {
     title: "Home",
     component: <Payments />,
-    route: "*",
+    route: "/",
   },
   {
     title: "Payments",
     component: <Payments />,
-    route: "*",
+    route: "/",
   },
   {
     title: "Balance",
     component: <Payments />,
-    route: "*",
+    route: "/",
   },
   {
     title: "Customers",
@@ -27,17 +27,17 @@ export const routes = [
   {
     title: "Products",
     component: <Payments />,
-    route: "*",
+    route: "/",
   },
   {
     title: "Reports",
     component: <Payments />,
-    route: "*",
+    route: "/",
   },
   {
     title: "Connect",
     component: <Payments />,
-    route: "*",
+    route: "/",
   },
   {
     title: (
@@ -46,6 +46,6 @@ export const routes = [
       </>
     ),
     component: <Payments />,
-    route: "*",
+    route: "/",
   },
 ];
