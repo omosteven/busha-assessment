@@ -1,0 +1,62 @@
+@import "components/ui/__variables";
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.layout {
+  display: flex;
+
+  width: 100%;
+
+  transition: 0.3s opacity;
+
+  main {
+    height: 100%;
+
+    width: 100%;
+
+    animation: fadeIn 5s;
+
+    padding: 40px 40px 0px 40px;
+  }
+
+  .layout-left-side {
+    width: 100%;
+  }
+
+  .layout-right-side {
+    border-left: 1px solid $white-muted-color;
+
+    width: 40px;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    div {
+      width: fit-content;
+
+      margin-left: auto;
+
+      margin-right: auto;
+
+      svg {
+        margin-top: 10px;
+
+        margin-bottom: 10px;
+
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,123 @@
+@import "components/ui/__variables";
+
+.payments-table {
+  margin-top: 16px;
+
+  &__amount {
+    display: flex;
+
+    gap: 16px;
+
+    b {
+      font-style: normal;
+
+      font-weight: 500;
+
+      font-size: 14px;
+
+      line-height: 20px;
+
+      width: 70px;
+
+      text-align: right;
+    }
+
+    &.success {
+      display: flex;
+
+      flex-direction: row;
+
+      align-items: center;
+
+      padding: 1px 6px;
+
+      width: 93px;
+
+      background: #d7f7c2;
+
+      border-radius: 4px;
+
+      font-style: normal;
+
+      font-weight: 500;
+
+      font-size: 12px;
+
+      line-height: 20px;
+
+      display: flex;
+
+      align-items: center;
+
+      color: $green-color;
+
+      gap: 0;
+
+      justify-content: space-between;
+
+      svg {
+        display: flex;
+
+        align-items: center;
+      }
+    }
+
+    &.pending {
+      padding: 6px;
+
+      width: 66px;
+
+      height: 18px;
+
+      background-color: yellow;
+
+      font-style: normal;
+
+      font-weight: 500;
+
+      font-size: 12px;
+
+      line-height: 20px;
+
+      display: flex;
+
+      align-items: center;
+
+      color: #a82c00;
+
+      gap: 0px;
+
+      justify-content: space-between;
+
+      svg {
+        display: flex;
+
+        align-items: center;
+      }
+    }
+  }
+
+  .custom-table {
+    table {
+      thead {
+        th:nth-child(2) {
+          span {
+            margin-left: 35px;
+          }
+        }
+
+        th:nth-child(3) {
+          span {
+            margin-left: 35px;
+          }
+        }
+
+        th:nth-child(4) {
+          span {
+            margin-left: 35px;
+          }
+        }
+      }
+    }
+  }
+}
