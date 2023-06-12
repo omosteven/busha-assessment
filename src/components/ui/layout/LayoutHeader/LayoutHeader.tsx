@@ -8,7 +8,7 @@ import LayoutLinks from "./LayoutLinks/LayoutLinks";
 import "./LayoutHeader.scss";
 
 const LayoutHeader = () => {
-  const [activeItemKey, setActiveKey] = useState(0);
+  const [activeItemKey, setActiveKey] = useState(1);
   return (
     <header className="header">
       <div className="header__top-section">

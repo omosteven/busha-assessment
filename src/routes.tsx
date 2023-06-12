@@ -1,5 +1,7 @@
+import assets from "assets";
 import Customers from "components/Dashboard/Customers/Customers";
 import Payments from "components/Dashboard/Payments/Payments";
+import { ReactSVG } from "react-svg";
 
 export const routes = [
   {
@@ -38,7 +40,11 @@ export const routes = [
     route: "*",
   },
   {
-    title: "More",
+    title: (
+      <>
+        More <ReactSVG src={assets.icons.dropdownBlack} />
+      </>
+    ),
     component: <Payments />,
     route: "*",
   },
