@@ -2,6 +2,8 @@
 
 .payments-table {
   margin-top: 16px;
+  
+  margin-bottom: 79px;
 
   &__amount {
     display: flex;
@@ -63,13 +65,15 @@
     }
 
     &.pending {
-      padding: 6px;
+      padding: 1px 6px;
 
       width: 66px;
 
       height: 18px;
 
-      background-color: yellow;
+      background: #f6e6b9;
+
+      border-radius: 4px;
 
       font-style: normal;
 
