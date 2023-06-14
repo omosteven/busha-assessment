@@ -13,13 +13,13 @@ const DashboardHeaderActionsFilterList = (props: {
   return (
     <div className="dashboard-header-actions-FL">
       {items?.map((item, key) => (
-        <span
+        <li
           onClick={() => toggleItem(key)}
           key={key}
           className={`${key === activeItemKey ? "active" : ""}`}
         >
           {item}
-        </span>
+        </li>
       ))}
     </div>
   );

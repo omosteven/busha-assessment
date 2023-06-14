@@ -2,11 +2,13 @@ import DashboardHeaderActionsButtons from "./DashboardHeaderActionsButtons/Dashb
 import DashboardHeaderActionsFilterList from "./DashboardHeaderActionsFilterList/DashboardHeaderActionsFilterList";
 import "./DashboardHeaderActions.scss";
 
-const DashboardHeaderActions = (props: {
+interface DashboardHeaderActionsProps {
   title: any;
   items: Array<any>;
   buttonText?: any;
-}) => {
+}
+
+const DashboardHeaderActions = (props: DashboardHeaderActionsProps) => {
   const { title, items, buttonText } = props;
   return (
     <div>

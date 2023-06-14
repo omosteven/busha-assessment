@@ -17,7 +17,9 @@
   
   width: 100%;
 
-  span {
+  margin-top: 8px;
+
+  li {
     font-style: normal;
 
     font-weight: 500;
@@ -26,11 +28,13 @@
 
     letter-spacing: -0.154px;
 
+    list-style: none;
+
     color: $black-muted-color;
 
     cursor: pointer;
     
-    line-height: 26px;
+    line-height: 27.5px;
 
     &.active {
       border-bottom: 2px solid $primary-color;

@@ -9,6 +9,8 @@
     width: 100% !important;
 
     border: none;
+
+    border-collapse: collapse; 
   }
 
   input {
@@ -29,13 +31,13 @@
 
     border-top: none;
     tr {
-      height: 36px !important;
 
       border: 0.5px solid $white-muted-color;
 
       border-left: none;
 
       border-right: none;
+      
     }
 
     td:first-child {
@@ -53,8 +55,6 @@
 
       align-items: center;
 
-      height: 36px;
-
       justify-content: space-between;
 
       svg {
@@ -71,7 +71,8 @@
     }
 
     td {
-      height: 36px !important;
+      // height: 36px !important;
+      padding: 8px 0px;
 
       font-weight: 400;
 
@@ -82,6 +83,7 @@
       letter-spacing: -0.154px;
 
       color: $violet-color;
+      
     }
   }
 
@@ -89,8 +91,6 @@
     background-color: $white-color;
 
     color: $black-color;
-
-    height: 26px !important;
 
     th:first-child {
       display: flex;
@@ -101,8 +101,6 @@
     }
 
     th {
-      height: 36px;
-
       font-weight: 600;
 
       padding: 8px 0px;

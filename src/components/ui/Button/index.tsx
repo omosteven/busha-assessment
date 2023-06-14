@@ -3,13 +3,11 @@ import "./Button.scss";
 
 interface ButtonProps {
   text: string;
-  authText?: string;
   isLoadingText?: string;
   className?: string;
   onClick?: Function;
   id?: string;
   isLoading?: boolean;
-  status?: string;
   icon?: string;
   isIconRight?: boolean;
   loader?: string;

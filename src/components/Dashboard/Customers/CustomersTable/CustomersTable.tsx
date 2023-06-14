@@ -12,8 +12,8 @@ const tableHeader = [
   <span className="d-flex">
     DESCRIPTION <ReactSVG src={assets.icons.settings} />
   </span>,
-  <span>DEFAULT SOURCE</span>,
-  <span>CREATED</span>,
+  <span className="d-flex">DEFAULT SOURCE</span>,
+  <span className="d-flex">CREATED</span>,
 ];
 
 const CustomersTable = () => {

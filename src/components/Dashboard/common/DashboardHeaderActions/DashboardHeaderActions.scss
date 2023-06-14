@@ -5,7 +5,9 @@
 
   justify-content: space-between;
 
-  width: 100%;
+  align-items: center;
+
+  height: fit-content;
 
   h3 {
     font-weight: 700;
@@ -17,6 +19,10 @@
     letter-spacing: 0.340402px;
 
     color: $black-color;
+
+    margin-top: 0;
+
+    margin-bottom: 0;
   }
 
   &__btns {
@@ -34,6 +40,12 @@
       align-items: center;
 
       justify-content: center;
+
+      &:hover {
+        svg {
+          stroke: $primary-color;
+        }
+      }
     }
 
     &__f-e {
@@ -69,6 +81,20 @@
       justify-content: center;
 
       letter-spacing: -0.154px;
+
+      &:hover {
+        background-color: $primary-color !important;
+        color: $white-color !important;
+        border: none !important;
+        svg {
+          stroke: $white-color !important;
+          fill: $white-color !important;
+          path {
+            stroke: $white-color !important;
+            fill: $white-color !important;
+          }
+        }
+      }
     }
   }
 }
